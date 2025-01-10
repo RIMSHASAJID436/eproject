@@ -1,0 +1,205 @@
+html {
+    scroll-behavior: smooth;
+}
+/* *{
+    border: 1px solid rebeccapurple;
+} */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav img {
+    width: 180px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.navbar-nav a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    /* margin-top: 50px; */
+    margin-left: 15px;
+    font-weight: bold;
+    position: relative;
+}
+
+.navbar-nav a:hover {
+    color: green;
+}
+
+.navbar-nav a::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: goldenrod;
+    transition: transform 0.3s ease;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.navbar-nav a:hover::after {
+    transform: scaleX(1);
+}
+/* #home {
+    font-family: "Pacifico", serif !important;
+    font-weight: 400;
+    font-style: normal;
+    color: goldenrod !important;
+  } */
+  .text {
+    font-family: "Pacifico", serif !important;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-box-reflect: below -30px linear-gradient(transparent, #00000040);
+}
+  .headings{
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .heading{
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .button{
+    border-radius: 20px;
+    border: none;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    padding: 5px;
+    margin: 10px auto;
+    font-size: small;
+  }
+  .button:hover{
+    background-color: rgb(132, 35, 35);
+    transition: .5s ease-in-out;
+  }
+  .card{
+    border: none !important;
+  }
+  h5:hover{
+    color: brown;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+  }
+  .card:hover{
+    border: 2px solid black;
+    box-shadow: 0px 7px 7px 7px lightgray;
+    border-radius: 10px;
+  }
+  img{
+    cursor: pointer;
+  }
+  span:hover{
+    color: brown;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+  }
+  .main-h1{
+    padding-top: 180px;
+  }
+  #top-btn {
+    border: 2px solid brown;
+    color: brown;
+    border-radius: 50%;
+    padding: 9px;
+    cursor: pointer;
+    font-size: medium;
+    position: fixed;
+    right: 10px;
+    top: 90%;
+    animation-name: appear;
+    animation-timeline: scroll(y);
+}
+.category img:hover{
+    cursor: pointer;
+    object-fit: cover;
+   transform: scale(1.1);
+    transition: .5s ease-in-out;
+}
+.category h4{
+    margin-top: 10px;
+}
+
+#top-btn a i {
+    color: black;
+    font-weight: bolder;
+    font-size: large;
+}
+input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+    padding: 10px;
+    padding-left: 10px;
+    outline: none;
+}
+textarea{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+    padding: 10px;
+    padding-left: 10px;
+    outline: none;
+    resize: none;
+}
+textarea::placeholder{
+    padding-left: 10px;
+    padding: 10px;
+    color: white;
+}
+input::placeholder{
+    color: white;
+    padding: 20px;
+}
+#message{
+    color: white;
+    width: 40%;
+    border: 1px solid white;
+    font-weight: bold;
+    border-radius: 20px;
+}
+#message:hover{
+    background-color: white;
+    color: brown;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        display: none;
+    }
+
+    100% {
+        opacity: 1;
+        display: block;
+    }
+}
+@media (max-width:767px) {
+    .main-h1{
+        padding-top: 20px;
+    }
+}
+
