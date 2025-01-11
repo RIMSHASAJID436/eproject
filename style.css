@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+overflow-x: hidden;
 }
 /* *{
     border: 1px solid rebeccapurple;
@@ -201,5 +202,9 @@ input::placeholder{
     .main-h1{
         padding-top: 20px;
     }
+    html {
+      scroll-behavior: smooth;
+  overflow-x: hidden;
+  }
 }
 
