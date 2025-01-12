@@ -179,6 +179,15 @@ input::placeholder{
     font-weight: bold;
     border-radius: 20px;
 }
+#email-btn{
+  color: white;
+  width: 40%;
+  border: 1px solid white;
+  font-weight: bold;
+  border-radius: 20px;
+  text-decoration: none;
+  padding: 10px 50px;
+}
 #message:hover{
     background-color: white;
     color: brown;
@@ -202,9 +211,27 @@ input::placeholder{
     .main-h1{
         padding-top: 20px;
     }
-    html {
-      scroll-behavior: smooth;
+    body {
+   
   overflow-x: hidden;
   }
+  .button{
+    border-radius: 20px;
+    border: none;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+    width: 80px;
+    padding: 5px;
+    margin: 10px auto;
+    font-size: small;
+  }
+  #message{
+    color: white;
+    width: 50%;
+    border: 1px solid white;
+    font-weight: bold;
+    border-radius: 20px;
+}
 }
 
