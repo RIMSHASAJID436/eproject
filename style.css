@@ -174,7 +174,7 @@ input::placeholder{
 }
 #message{
     color: white;
-    width: 40%;
+    width: 35%;
     border: 1px solid white;
     font-weight: bold;
     border-radius: 20px;
@@ -186,9 +186,9 @@ input::placeholder{
   font-weight: bold;
   border-radius: 20px;
   text-decoration: none;
-  padding: 10px 50px;
+  padding: 12px 60px;
 }
-#message:hover{
+#message:hover,#email-btn:hover{
     background-color: white;
     color: brown;
     transition: .5s ease-in-out;
