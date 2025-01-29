@@ -196,6 +196,42 @@ input::placeholder{
     font-weight: bold;
 }
 
+.footer p{
+  font-family: sans-serif;
+  color: gray;
+  }
+  .footer h2{
+      margin-bottom: 20px;
+  }
+  /* span{
+      color: rgb(204, 154, 26);
+  } */
+  .foo-icon i{
+      padding: 10px;
+      background-color: #384a5e;
+      color: white;
+  }
+  .foo-icon i:hover{
+      cursor: pointer;
+      background-color: rgb(211, 164, 45);
+      transition: .5s ease;
+  }
+  .foo-input input{
+  background-color: rgb(58, 56, 56);
+  width: 60%;
+  border: none;
+  height: 50px;
+  }
+  .foo-input button{
+      background-color: rgb(204, 154, 26);
+      color: white;
+      border: none;
+      margin-left: -7%;
+      padding: 5px;
+      width: 120px;
+  }
+    
+
 @keyframes appear {
     0% {
         opacity: 0;
@@ -228,10 +264,38 @@ input::placeholder{
   }
   #message{
     color: white;
-    width: 50%;
+    width: 44%;
     border: 1px solid white;
     font-weight: bold;
     border-radius: 20px;
 }
+#email-btn{
+  color: white;
+  width: 40%;
+  border: 1px solid white;
+  font-weight: bold;
+  border-radius: 20px;
+  text-decoration: none;
+  padding: 12px 30px;
+}
+.foo-input input{
+  background-color: rgb(58, 56, 56);
+  width: 70%;
+  border: none;
+  height: 50px;
+  }
+  .foo-input button{
+      background-color: rgb(204, 154, 26);
+      color: white;
+      border: none;
+      margin-left: -7%;
+      padding: 5px;
+      font-size: small;
+      width: 70px;
+  }
+  .foo-input input::placeholder{
+    font-size: small;
+    padding: 1px;
+  }
 }
 
